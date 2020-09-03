@@ -60,7 +60,7 @@ $('#header__burger').on('click', function(){
 
     if($(this).hasClass('header__burger-close')){
         $(menuItem).each(function(index, link){
-            $(link).css('animation', `menu__animate .5s ease-out ${index / 7 + 0.1}s forwards` )
+            $(link).css('animation', `menu__animate .4s ease-out ${index / 8 + 0.1}s forwards` )
         })
     }else{
         $(menuItem).each(function(index, link){
